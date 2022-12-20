@@ -1,0 +1,91 @@
+body {
+    background-color: #1F2937;
+    margin: 0;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+}
+
+h3 {
+    color: #D5D4D8;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+.green-txt {
+    color: #4ADF86;
+}
+
+#btn-green {
+    border: none;
+    border-radius: 6px;
+    background-color: #10B981;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px 16px;
+}
+
+#btn-green:hover {
+    background-color: #10986b;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+#main-container {
+    margin: 115px auto;
+    width: 446px;
+}
+
+#generated-passwords {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #2F3E53;
+    margin: 35px 0;
+    width: 446px;
+}
+
+#password-left {
+    background-color: #273549;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 24px;
+    height: 39px;
+    width: 211px;
+    margin: 35px 12px 35px 0;
+    text-align: center;
+    user-select: none;
+}
+
+#password-right {
+    background-color: #273549;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 24px;
+    padding: 8px 16px;
+    height: 39px;
+    width: 211px;
+    margin: 35px 0 35px 12px;
+    text-align: center;
+    user-select: none;
+}
+
+.margin-5-top {
+    margin-top: 5px;
+}
